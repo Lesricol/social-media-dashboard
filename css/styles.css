@@ -18,5 +18,174 @@ ul {
 }
 body {
   margin: 0;
-  font-family: sans-serif;
+  font-family: "Inter", sans-serif;
+  color: white;
+  background-color: #1D1F29;
+}
+
+header, main{
+  margin: 24px;
+}
+
+.header{
+  padding-bottom: 24px;
+  border-bottom: 1px solid #333A55;
+  margin-bottom: 64px;
+}
+
+.title{
+  margin: 0;
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+.text{
+  margin: 0;
+  font-weight: 700;
+  font-size: 0.875rem;
+  color: #8C98C6;
+}
+
+.followers-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 326px;
+  height: 936px;
+
+}
+
+.followers{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 216px;
+  border-radius: 5px;
+  background-color: #252B42;
+  padding: 32px 0 24px 0;
+}
+.followers-facebook{
+  border-top: 4px solid #178FF5;
+}
+.followers-twitter{
+  border-top: 4px solid #1DA1F2;
+}
+.followers-instagram{
+  border-top: 4px solid #EE877E;
+}
+.followers-youtube{
+  border-top: 4px solid #C4032B;
+}
+
+
+.icon-container{
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.user{
+  font-weight: 700;
+  font-size: 0.75rem;
+  color: #8C98C6;
+}
+
+.statistics{
+  text-align: center;
+}
+
+.numbers-followers{
+  margin: 0 0 8px 0;
+  font-weight: 700;
+  font-size: 3.5rem;
+  line-height: 3rem;
+  letter-spacing: -0.125rem;
+}
+
+.text-followers{
+  font-size: 0.75rem;
+  letter-spacing: 0.3125rem;
+  color: #8C98C6;
+}
+
+.today{
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+}
+
+.text-today{
+  font-weight: 700;
+  font-size: 0.75rem;
+}
+
+.today-neutral{
+  color: #D8D8D8;
+}
+
+.today-up{
+  color: #1EB589 ;
+}
+.today-down{
+  color: #DC414C ;
+}
+
+.subtitle{
+  margin: 46px 0 27px;
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+.overview{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 326px;
+  height: 1112px;
+}
+.card-view{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  height: 125px;
+  padding: 26px 24px 24px;
+  border-radius: 5px;
+  background-color: #252B42;
+}
+
+.view-top{
+  display: flex;
+  justify-content: space-between;
+}
+
+.view-statistics{
+  display: flex;
+  justify-content: space-between;
+}
+
+.view-up{
+  display: flex;
+  align-items: center;
+  gap: 0.125rem;
+  color: #1EB589;
+}
+
+.view-down{
+  display: flex;
+  align-items: center;
+  gap: 0.125rem;
+  color: #C4032B;
+}
+
+.view-bold{
+  font-weight: 700;
+  font-size: 32px;
+}
+
+.view-text{
+  font-weight: 700;
+  font-size: 0.75rem;
 }

@@ -3,10 +3,191 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="shortcut icon"
+      href="/assets/images/favicon-32x32.png"
+      type="image/png"
+    />
     <link rel="stylesheet" href="./css/styles.css" />
     <title>Document</title>
   </head>
   <body>
-    <hi>Proyecto Base</hi>
+    <header class="header">
+      <h1 class="title">Social Media Dashboard</h1>
+      <p class="text">Total Followers: 23,004</p>
+    </header>
+    <main class="main">
+      <div class="followers-container">
+        <div class="followers followers-facebook">
+          <div class="icon-container">
+            <img src="/assets/images/icon-facebook.svg" alt="facebook" />
+            <span class="user">@nathanf</span>
+          </div>
+          <div class="statistics">
+            <h3 class="numbers-followers">1987</h3>
+            <span class="text-followers">FOLLOWERS</span>
+          </div>
+          <div class="today today-neutral">
+            <img src="/assets/images/icon-up.svg" alt="up" />
+            <span class="text-today">12 Today</span>
+          </div>
+        </div>
+        <div class="followers followers-twitter">
+          <div class="icon-container">
+            <img src="/assets/images/icon-twitter.svg" alt="twitter" />
+            <span class="user">@nathanf</span>
+          </div>
+          <div class="statistics">
+            <h3 class="numbers-followers">1044</h3>
+            <span class="text-followers">FOLLOWERS</span>
+          </div>
+          <div class="today today-up">
+            <img src="/assets/images/icon-up.svg" alt="up" />
+            <span class="text-today">99 Today</span>
+          </div>
+        </div>
+        <div class="followers followers-instagram">
+          <div class="icon-container">
+            <img src="/assets/images/icon-instagram.svg" alt="instagram" />
+            <span class="user">@realnathanf</span>
+          </div>
+          <div class="statistics">
+            <h3 class="numbers-followers">11k</h3>
+            <span class="text-followers">FOLLOWERS</span>
+          </div>
+          <div class="today today-up">
+            <img src="/assets/images/icon-up.svg" alt="up" />
+            <span class="text-today">1099 Today</span>
+          </div>
+        </div>
+        <div class="followers followers-youtube">
+          <div class="icon-container">
+            <img src="/assets/images/icon-youtube.svg" alt="youtube" />
+            <span class="user">Nathan F.</span>
+          </div>
+          <div class="statistics">
+            <h3 class="numbers-followers">8239</h3>
+            <span class="text-followers">SUBSCRIBERS</span>
+          </div>
+          <div class="today today-down">
+            <img src="/assets/images/icon-down.svg" alt="down" />
+            <span class="text-today">144 Today</span>
+          </div>
+        </div>
+      </div>
+      <h2 class="subtitle">Overview - Today</h2>
+      <div class="overview">
+        <div class="card-view">
+          <div class="view-top">
+            <span class="text">Page Views</span>
+            <img src="/assets/images/icon-facebook.svg" alt="facebook" />
+          </div>
+          <div class="view-statistics">
+            <span class="view-bold">87</span>
+            <div class="view-up">
+              <img src="/assets/images/icon-up.svg" alt="up" />
+              <span class="view-text">3%</span>
+            </div>
+          </div>
+        </div>
+        <div class="card-view">
+          <div class="view-top">
+            <span class="text">Likes</span>
+            <img src="/assets/images/icon-facebook.svg" alt="facebook" />
+          </div>
+          <div class="view-statistics">
+            <span class="view-bold">52</span>
+            <div class="view-down">
+              <img src="/assets/images/icon-down.svg" alt="down" />
+              <span class="view-text">2%</span>
+            </div>
+          </div>
+        </div>
+        <div class="card-view">
+          <div class="view-top">
+            <span class="text">Likes</span>
+            <img src="/assets/images/icon-instagram.svg" alt="instagram" />
+          </div>
+          <div class="view-statistics">
+            <span class="view-bold">5462</span>
+            <div class="view-up">
+              <img src="/assets/images/icon-up.svg" alt="up" />
+              <span class="view-text">2257%</span>
+            </div>
+          </div>
+        </div>
+        <div class="card-view">
+          <div class="view-top">
+            <span class="text">Profile Views</span>
+            <img src="/assets/images/icon-instagram.svg" alt="instagram" />
+          </div>
+          <div class="view-statistics">
+            <span class="view-bold">52k</span>
+            <div class="view-up">
+              <img src="/assets/images/icon-up.svg" alt="up" />
+              <span class="view-text">1375%</span>
+            </div>
+          </div>
+        </div>
+        <div class="card-view">
+          <div class="view-top">
+            <span class="text">Retweets</span>
+            <img src="/assets/images/icon-twitter.svg" alt="twitter" />
+          </div>
+          <div class="view-statistics">
+            <span class="view-bold">117</span>
+            <div class="view-up">
+              <img src="/assets/images/icon-up.svg" alt="up" />
+              <span class="view-text">303%</span>
+            </div>
+          </div>
+        </div>
+        <div class="card-view">
+          <div class="view-top">
+            <span class="text">Likes</span>
+            <img src="/assets/images/icon-twitter.svg" alt="twitter" />
+          </div>
+          <div class="view-statistics">
+            <span class="view-bold">507</span>
+            <div class="view-up">
+              <img src="/assets/images/icon-up.svg" alt="up" />
+              <span class="view-text">553%</span>
+            </div>
+          </div>
+        </div>
+        <div class="card-view">
+          <div class="view-top">
+            <span class="text">Likes</span>
+            <img src="/assets/images/icon-youtube.svg" alt="youtube" />
+          </div>
+          <div class="view-statistics">
+            <span class="view-bold">107</span>
+            <div class="view-down">
+              <img src="/assets/images/icon-down.svg" alt="down" />
+              <span class="view-text">19%</span>
+            </div>
+          </div>
+        </div>
+        <div class="card-view">
+          <div class="view-top">
+            <span class="text">Total Views</span>
+            <img src="/assets/images/icon-youtube.svg" alt="youtube" />
+          </div>
+          <div class="view-statistics">
+            <span class="view-bold">107</span>
+            <div class="view-down">
+              <img src="/assets/images/icon-down.svg" alt="down" />
+              <span class="view-text">12%</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
   </body>
 </html>
