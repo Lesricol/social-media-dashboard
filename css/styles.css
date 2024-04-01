@@ -23,6 +23,17 @@ body {
   background-color: #1D1F29;
 }
 
+@media screen and (width>=1440px) {
+  body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 1440px;
+    height: 800px;
+  }
+}
+
 header, main{
   margin: 24px;
 }
@@ -79,6 +90,23 @@ header, main{
   border-top: 4px solid #C4032B;
 }
 
+@media screen and (width>= 1110px) {
+  header{
+    width: 1110px;
+  }
+
+  main{
+    width: 1110px;
+  }
+  .followers-container{
+    flex-direction: row;
+    width: 1110px;
+    height: 216px;
+  }
+  .followers{
+    width: 255px;
+  }
+}
 
 .icon-container{
   display: flex;
@@ -164,6 +192,19 @@ header, main{
 .view-statistics{
   display: flex;
   justify-content: space-between;
+}
+
+@media screen and (width>=1110px) {
+  .overview{
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 1110px;
+    height: 274px;
+    gap: 1rem;
+  }
+  .card-view{
+    width: 255px ;
+  }
 }
 
 .view-up{
